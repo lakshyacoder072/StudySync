@@ -242,3 +242,139 @@ a {
     max-width: 90%;
     color: white;
 }
+
+.test {
+    color: #111827;
+    background-color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.aboutus {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.boxes {
+    padding-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.promo1 {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid rgb(202, 202, 202);
+    border-radius: 0.5rem;
+    height: 15rem;
+    width: 23rem;
+    /* box-shadow: 2px 2px 10px black; */
+}
+
+.promo1:hover {
+    box-shadow: 2px 2px 10px black;
+}
+
+.para1 {
+    padding-left: 0.5rem;
+    padding-right: 0.7rem;
+    padding-top: 1rem;
+    color: #111827;
+    font-size: 1rem;
+    min-width: 100%;
+}
+
+.promo1 img {
+    padding-top: 1rem;
+    height: 6rem;
+    width: 5rem;
+    margin: 0 auto;
+}
+
+.para2 {
+    padding-top: 1rem;
+    color: rgb(41, 41, 190);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.para3 {
+    color: #111827;
+    font-size: 1rem;
+}
+
+.promo1 img:hover {
+    transform: scale(1.2);
+}
+
+.news {
+    padding-top: 5rem;
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(2, 1fr);
+    color: #111827;
+}
+
+.leftnews img {
+    height: auto;
+    width: 100%;
+}
+
+.rightnews {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.updates {
+    color: rgb(98, 98, 126);
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(62, 62, 204);;
+}
+
+.signup p {
+    color: #8992a5;
+    font-size: 1rem;
+    font-weight: 800;
+    display: inline;
+}
+
+.signup {
+    margin-top: 0.5rem;
+}
+
+.email-send {
+    padding-top: 1rem;
+}
+
+.email {
+    padding: 0.4rem 0;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    border: 0.5px solid rgb(209, 206, 206);
+    border-radius: 0.25rem;
+}
+
+.send {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: rgb(70, 70, 202);
+    color: white;
+    border: 0.5px solid rgb(209, 206, 206);
+    border-radius: 0.25rem;
+}
+
+.terms {
+    margin-top: 1rem;
+}
+
+.terms p{
+    display: inline;
+    font-size: 0.9rem;
+}
