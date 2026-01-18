@@ -378,3 +378,83 @@ a {
     display: inline;
     font-size: 0.9rem;
 }
+
+/* Footer */
+
+.footer {
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+/* Left part footer */
+
+.lastleft p {
+    margin: 1rem 0;
+    text-align: left;
+    max-width: 100%;
+}
+
+.lastleft {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.lastleft h4 img {
+    height: 1.725rem;
+    width: 1.725rem;
+}
+
+.lastleft h4 {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #111827;
+}
+
+.promos {
+    display: flex;
+    gap: 0.8252rem;
+}
+
+/* Right Part footer */
+
+.lastright {
+    display: flex;
+    min-width: 55%;
+    gap: 4rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.products h4 {
+    /* padding-left: 0rem; */
+    color: #111827;
+    font-weight: 900;
+}
+
+.products p {
+    font-size: 0.9rem;
+}
+
+.products p a {
+    color: #767d8c;
+}
+
+.copy {
+    text-align: center;
+}
+
+.copy span {
+    color: red;
+}
